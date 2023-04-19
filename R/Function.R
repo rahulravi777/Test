@@ -1,3 +1,14 @@
+#' Pearson correlation coefficient
+#'
+#' @param x is vector of variables
+#' @param y is vector of variables
+#'
+#' @return a numerical value of length 1
+#' @export
+#'
+#' @examples
+#' Pear_corr(x,y)
+
 Pear_corr <-   function(x, y) {
 
   Xm   = mean(x)
